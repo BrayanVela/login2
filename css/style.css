@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color:rgb(0, 0, 128);
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav__titulo{
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    font-size: xx-large;
+}
+
+.navlogin{
+    display: flex;
+}
+
+.divlogin{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}
+
+input, button{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+button{
+    background-color: rgb(158, 119, 10);
+    width: 320px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(0, 0, 128);
+    color: white;
+    padding: 20px;
+}
